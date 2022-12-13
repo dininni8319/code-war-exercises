@@ -1,17 +1,23 @@
-function perimeter(n) {
-  let sum = 0;
-  
-  for (let i = n; i >= 0; i--) {
-    const element = i;
-    sum += i
-    
-    
-  }
-  return sum * 4;
-}
+// function perimeter(n) {
 
-console.log(perimeter(0)); //4
-console.log(perimeter(5));  //60
-console.log(perimeter(7));  //112
-console.log(perimeter(20));  //840
-console.log(perimeter(30));  //1860
+//   let b = 0;
+//   let a = 1; 
+//   let temp;
+//   let total = 0
+
+//   while (n >= 0) {
+//     total += a;
+//     temp = a; 
+//     a = a + b;
+//     b = temp;
+//     n--
+//   }
+
+//   return total * 4;
+// }
+
+// console.log(perimeter(0)); 
+// console.log(perimeter(5)); 
+// console.log(perimeter(7));  
+// console.log(perimeter(20));  
+// console.log(perimeter(30));  
